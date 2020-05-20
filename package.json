@@ -10,9 +10,9 @@
     "url": "https://github.com/live-change/dao-sockjs/issues"
   },
   "dependencies": {
-    "debug": "^4.1.1",
     "@live-change/dao": "git+https://github.com/live-change/dao.git",
-    "sockjs-client": "https://github.com/sockjs/sockjs-client.git",
+    "debug": "^4.1.1",
+    "sockjs-client": "git+https://github.com/sockjs/sockjs-client.git",
     "supports-color": "^7.1.0"
   },
   "devDependencies": {
