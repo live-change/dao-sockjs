@@ -61,3 +61,4 @@ class SockJsConnection extends Connection {
 }
 
 module.exports = SockJsConnection
+module.exports.SockJsConnection = SockJsConnection
