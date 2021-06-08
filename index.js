@@ -4,8 +4,8 @@ const Connection = rd.ReactiveConnection
 const debug = require('debug')('dao:sockjs')
 
 class SockJsConnection extends Connection {
-  constructor(sessionId, url, settings) {
-    super(sessionId, settings)
+  constructor(credentials, url, settings) {
+    super(credentials, settings)
     this.url = url
     this.initialize()
   }
