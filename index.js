@@ -50,7 +50,7 @@ class SockJsConnection extends Connection {
   }
 
   dispose() {
-    this.finished = true
+    super.dispose()
     this.connection.close()
   }
 
